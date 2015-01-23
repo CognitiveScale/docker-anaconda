@@ -1,0 +1,12 @@
+---
+
+# docker-ansible/ansible/site.yml
+
+- hosts: all
+  roles: 
+   - anaconda
+  sudo: yes
+
+# - hosts: all
+#   tasks:
+#    - include: docker_cleanup.yml
